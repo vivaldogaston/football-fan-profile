@@ -1,7 +1,35 @@
 .App {
   text-align: center;
 }
+#profile{
+  display: flex;
+  flex-direction: row;
+  padding-left:150px;
+  padding-right:150px;
+}
+#user, #team{
+  height: 400px;
+  width: 400px;
+  margin: 50px;
+  display: grid;
+  text-align: left;
+  padding: 20px;
+}
 
+.button{
+  background-color: white;
+  border: solid 2px #0099ff;
+  color: #0099ff;
+  border-radius: 5px;
+  margin: 10px;
+  height: 40px;
+  width: 140px;
+  cursor: pointer;
+}
+.button:hover{
+  color: white;
+  background-color: #0099ff;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +64,4 @@
     transform: rotate(360deg);
   }
 }
+
